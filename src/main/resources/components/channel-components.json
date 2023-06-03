@@ -1,0 +1,27 @@
+{
+    "components" : [
+      {
+        "type": "service",
+        "name": "ACCOUNT",
+        "contextPath": "/account",
+        "description" :  "core proxy / savings account openning / handle referral",
+        "iconURI": "/iconFile.icon",
+        "openApiURI": "/swagger-ui/index.html",
+        "gitInfoURI" : "/info",
+        "healthURI" : "/health",
+        "localhostPort": 8081
+      },
+      {
+        "type": "service",
+        "name": "SCHEDULER",
+        "contextPath": "/scheduler",
+        "description" : "",
+        "iconURI": "/iconFile.icon",
+        "openApiURI": "/open-api",
+        "gitInfoURI" : "/info",
+        "healthURI" : "/manage/health",
+        "localhostPort": 8082
+      }
+    ]
+}
+  

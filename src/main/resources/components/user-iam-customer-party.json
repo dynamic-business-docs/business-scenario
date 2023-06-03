@@ -1,0 +1,27 @@
+{
+    "components" : [
+      {
+        "type": "service",
+        "name": "IAM",
+        "contextPath": "/iam",
+        "description" : "Identity and access management",
+        "iconURI": "/iconFile.icon",
+        "openApiURI": "/open-api",
+        "gitInfoURI" : "/info",
+        "healthURI" : "/manage/health",
+        "localhostPort": 8082
+      },
+      {
+        "type": "service",
+        "name": "BLU-PARTY",
+        "contextPath": "/blu-party",
+        "description" : "customer management system",
+        "iconURI": "/iconFile.icon",
+        "openApiURI": "/swagger-ui/index.html",
+        "gitInfoURI" : "/info",
+        "healthURI" : "/health",
+        "localhostPort": 8082
+      }
+    ]
+}
+  

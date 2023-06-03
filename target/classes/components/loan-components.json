@@ -1,0 +1,16 @@
+{
+    "components" : [
+      {
+        "type": "service",
+        "name": "loan",
+        "contextPath": "/loan",
+        "description" : "loan service",
+        "iconURI": "/iconFile.icon",
+        "openApiURI": "/open-api",
+        "gitInfoURI" : "/info",
+        "healthURI" : "/manage/health",
+        "localhostPort": 8080
+      }
+    ]
+}
+  

@@ -1,0 +1,28 @@
+{
+    "components" : [
+      {
+        "type": "actor",
+        "name": "financial-back-office"
+      },
+      {
+        "type": "actor",
+        "name": "help-desk-actor"
+      },
+      {
+        "type": "UI",
+        "name": "core-panel"
+      },
+      {
+        "type": "gateway",
+        "name": "GATEWAY",
+        "contextPath": "/mib-apim3-gateway",
+        "description" :  "gateway",
+        "iconURI": "/iconFile.icon",
+        "openApiURI": "/",
+        "gitInfoURI" : "/info",
+        "healthURI" : "/health",
+        "localhostPort": 80
+      }
+    ]
+}
+  
